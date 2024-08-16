@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Confeccionar un formulario que solicite el ingreso del nombre de una
+        persona y su edad. Disponer un botón de tipo submit para el envío de
+        los datos.
+    </h2>
+    <br>
+    <form>
+        <label for="firstname">Nombre</label>
+        <input type="text" name="firstname" id="firstname" size="30"></input>
+        <br>
+        <label for="age">Edad</label>
+        <input type="number" name="age" id="age" size="30" maxlength="3"></input>
+        <br>
+        <input type="submit" value="Enviar"></input>
+    </form>
+    <br>
+    <br>
+    <h2>Confeccionar un formulario que solicite el ingreso de mail de una
+        persona y luego pida el ingreso de su clave dos veces (recordar
+        inicializar la propiedad name del elemento input con distintos nombres
+        para cada control)</h2>
+    <form>
+        <label for="mail">E-Mail</label>
+        <input type="email" name="mail" id="mail" size="30">
+        <br>
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password" size="30">
+        <br>
+        <label for="password_check">Validacion contraseña</label>
+        <input type="password" name="password_check" id="password_check">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    <h2>Confeccionar un formulario que permita ingresar el nombre de una
+        persona, su mail, su dni (documento nacional de identidad) y finalmente
+        su curriculum (este último dato hacerlo utilizando un textarea)
+    </h2>
+    <form>
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" size="name">
+        <br>
+        <label for="mail">E-Mail</label>
+        <input type="email" name="email" id="email" size="30">
+        <br>
+        <label for="dni">DNI</label>
+        <input type="text" id="dni" name="dni" size="30" maxlength="8" placeholder="Solo numeros, sin puntos ni comas">
+        <br>
+        <label for="lifesheet">Curriculum</label>
+        <textarea name="lifesheet" rows="10" cols="40">Ingrese su curriculum...</textarea>
+        <br>
+    </form>
+    <h2>Confeccione un formulario que solicite el ingreso de un mail, una clave y
+        luego muestre una serie de títulos de películas con su respectivo
+        checkbox. Disponer también del botón de tipo submit para el envío de
+        datos al servidor</h2>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="mail" >E-mail</label>
+            <input type="mail" name="mail" id="mail" size="mail">
+            <br>
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" id="password" size="30" placeholder="Ej:123">
+        </fieldset>
+        <fieldset>
+            <legend>Peliculas</legend>
+            <input type="checkbox" name="option" value="1">Interestelar
+            <input type="checkbox" name="option" value="2">Pulp fiction
+            <input type="checkbox" name="option" value="3">Fight Club
+        </fieldset>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+    </form>
+    <br>
+    <h2>Confeccionar un formulario que solicite cual sistema operativo utiliza
+        más (linux o windows). Usar control Radio</h2>
+    <form>
+        <legend>Opcion mas utilizada</legend>
+        <input type="radio" name="option" value="1" required>Windows
+        <input type="radio" name="option" value="2" required>Linux
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <h2>Confeccionar un formulario que muestre en un control select una serie
+        de mails. Luego permitir que el visitante seleccione uno o varios mails
+        del cuadro de selección</h2>
+    <form>
+        <label for="mail">Seleccione los mails que desea</label>
+        <br>
+        <select name="mail" id="mail" multiple required size="3">
+            <option value="mail@ejemplo">mail@ejemplo</option>
+            <option value="mail@chau">mail@chau</option>
+            <option value="hola@mail">hola@mail</option>
+        </select>
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <h2>Confeccione un control de tipo select con los nombres de países de
+        América y Europa. Agrupe los países por continente.</h2>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Paises europa</legend>
+            <select name="europe_countries">
+                <option value="Alemania">Alemania</option>
+                <option value="España">España</option>
+                <option value="Italia">Italia</option>
+                <option value="Gran Bretaña">Gran Bretaña</option>
+                <option value="Noruega">Noruega</option>
+                <option value="Francia">Francia</option>
+                <option>...</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Paises LATAM</legend>
+            <select name="latam_countries" required>
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+                <option value="Peru">Peru</option>
+            </select>
+        </fieldset>
+    </form>
+    <br>
+    <h2>. Confeccionar un formulario que solicite el ingreso del nombre de una
+        persona y permita votar el sitio. Mediante un cuadro de selección el
+        visitante puede elegir entre las siguientes opciones: Excelente, Muy
+        Bueno, Bueno, Regular y Malo.</h2>
+    <br>
+    <form>
+        <label for="name">Nombre</label>
+        <input type="text" size="30" required placeholder="Ej:Valentin" name="name" id="name">
+        <br>
+        Describa la experiencia
+        <select name="site_opinion" required>
+            <option value="Mala">Mala</option>
+            <option value="Regular">Regular</option>
+            <option value="Buena">Buena</option>
+            <option value="Muy buena">Muy buena</option>
+            <option value="Excelente">Excelente</option>
+        </select>
+
+    </form>
+</html>

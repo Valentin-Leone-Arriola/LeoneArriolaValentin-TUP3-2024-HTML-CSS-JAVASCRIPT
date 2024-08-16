@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICA1_html</title>
+    <link rel="stylesheet" href="/PRACTICA/HTML (unidad 2)/PRACTICA 1/practica1_unidad2.css">
+</head>
+<body>
+    <p>Ejercicio 1: Estructura básica de un documento HTML
+        Crea un documento HTML básico que contenga un encabezado de nivel 1 con el texto
+        "Bienvenidos a mi página web", un párrafo con el texto "Esta es una página de ejemplo" y una
+        lista desordenada con tres elementos: "Elemento 1", "Elemento 2"y "Elemento 3".</p>
+    <br>
+    <h1>Bienvenidos a mi pagina web</h1>
+    <p>Esta es una pagina de ejemplo</p>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+    <br>
+    <p>Ejercicio 2: Etiquetas y Atributos
+        Crea un documento HTML que contenga un formulario con los siguientes campos:
+        un campo de texto para el nombre,
+        un campo de correo electrónico,
+        un campo de contraseña y
+        un botón de envío.
+        Asegúrate de que cada campo tenga una etiqueta apropiada y atributos correctos.</p>
+    <br>
+    <form>
+        <label for="firstname">Nombre</label>
+        <input type="text" size="30" name="firstname" id="firstname" placeholder="Ej:Valentin">
+        <br>
+        <label for="email">Correo electronico</label>
+        <input type="email" size="30" name="email" id="email" placeholder="Ej:email@ejemplo.com">
+        <br>
+        <label for="password" >Contraseña</label>
+        <input type="password" size="30" name="password" id="password" placeholder="Ej:lorem">
+        <br>
+        <input type="submit">
+    </form>
+    <br>
+    <p>Ejercicio 3: Estilos CSS inline y en archivo externo
+        Crea un documento HTML con un párrafo que tenga el texto "Este es un párrafo con estilo inline"
+        y aplícale estilo inline para que el texto sea de color rojo y tenga un tamaño de fuente de 20px.
+        Luego, crea otro párrafo con el texto "Este es un párrafo con estilo en archivo externo" y aplícale
+        estilo desde un archivo CSS externo para que el texto sea de color azul y tenga un tamaño de
+        fuente de 18px</p>
+    <br>
+    <p style="color: red; font-size: 20px;">Este es un parrafo con estilo inline</p>
+    <p class="estiloexterno">Este es un parrafo con estilo externo</p>
+</body>
+</html>

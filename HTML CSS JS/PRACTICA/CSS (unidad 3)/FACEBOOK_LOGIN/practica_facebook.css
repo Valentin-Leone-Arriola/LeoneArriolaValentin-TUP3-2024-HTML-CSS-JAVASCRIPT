@@ -1,0 +1,10 @@
+*{
+    text-align:center;
+}
+#form{
+    border: solid 1px;
+    border-color:rgb(187, 190, 187);
+    position: relative;
+    display: flex;
+    text-align: center;
+}
