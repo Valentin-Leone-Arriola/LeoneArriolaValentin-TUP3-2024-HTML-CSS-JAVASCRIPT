@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentin Leone Arriola</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+    <!--
+    Ejercicio: Crea una página web de perfil personal que incluya los siguientes elementos:
+
+    Encabezado: Un encabezado de nivel 1 con tu nombre.
+    Imagen de perfil: Una imagen de perfil con un atributo alt descriptivo.
+    Sección de información personal: Un párrafo con una breve biografía.
+    Lista de intereses: Una lista desordenada con al menos tres intereses o hobbies.
+    Tabla de información de contacto: Una tabla que incluya dos filas con tu información de contacto (correo electrónico y teléfono).
+    Enlace a redes sociales: Enlaces a tus perfiles de redes sociales (puedes usar URLs ficticias).
+    Formulario de contacto: Un formulario con los siguientes campos:
+    Campo de texto para nombre
+    Campo de correo electrónico
+    Área de texto para mensaje
+    Botón de envío-->
+<header>
+        <h1 class="nombre">Valentin Leone Arriola</h1>
+        <div class="profile-pic">
+        <img class="image" src="profile_picture.jpeg" alt="Foto de perfil de Valentin Leone Arriola">
+        </div>
+</header>
+<body>
+    <section>
+    <h2>About Me</h2>
+    <p>Me llamo Valentin, tengo 19 años y soy de Funes. Estudio Licenciatura en Marketing en la UCA y Tecnicatura en Programacion en la UTN. Elegi estas carreras porque me interesa el comportamiento humano y la toma de decisiones en negocios, asi como poder desarrollar tegnologias que me permitan recuperar informacion del cliente y permitir mejores elecciones.</p>
+    <h2>Intereses</h2>
+    <ul>
+        <li>Gaming</li>
+        <ul>
+            <li>Valorant</li>
+            <li>Dead by Daylight</li>
+            <li>Resident Evil</li>
+        </ul>
+        <li>Anime y cultura japonesa</li>
+        <li>Musica electronica</li>
+    </ul>
+    <h2>Informacion de Contacto</h2>
+    <table border="1">
+        <tr>
+            <th>Mail</th>
+            <th>Numero de telefono</th>
+        </tr>
+        <tr>
+            <td>valenleone05@gmail.com</td>
+            <td>341-123-4567 (numero ejemplo)</td>
+        </tr>
+    </table>
+    <h2>Redes sociales</h2>
+    <a href="https://www.instagram.com/google?igsh=MXF3ZGk5NnFocnRvZA==" target="_blank" title="Instagram de Google">Instagram</a>
+    <a href="https://x.com/Google?t=2T1H1IjBhJAIVTfxPnZzNA&s=09" target="_blank" title="X de Google">X</a>
+    <a href="https://youtube.com/@madebygoogle?si=eBMxXAUvk5wfkG5F" target="_blank" title="Youtube de Google">Youtube</a>
+    </div>
+    <h2>Formulario de contacto</h2>
+    <form>
+        <div class="personal-data">
+        <label for="name">Nombre y apellido</label>
+        <input size="50" name="name" id="name" type="text" required placeholder="Ej:Valentin Leone Arriola" 
+        title="Ingrese su nombre y apellido">
+        </div>
+        <br>
+        <div class="personal-data">
+            <label for="email">Correo electronico</label>
+            <input size="50" name="email" id="email" type="email" required placeholder="Ej: email@ejemplo.com" title="Ingrese su email">
+        </div>
+        <br>
+        <div class="text-area">
+        <textarea name="message" id="message" rows="10" cols="50">Escriba su mensaje...</textarea>
+        </div>
+        <br>
+        <input type="submit" value="Enviar" title="Haga click para enviar el formulario">
+    </form>
+</section>
+</body>
+<footer></footer>
+</html>

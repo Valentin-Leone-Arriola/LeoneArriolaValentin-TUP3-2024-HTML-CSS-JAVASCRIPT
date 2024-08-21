@@ -1,0 +1,84 @@
+@font-face{
+    font-family: Poppins;
+    font-weight: 400;
+    src:url(fonts_poppins/Poppins-Regular.ttf) format("truetype")
+}
+
+@font-face{
+    font-family: Poppins;
+    font-weight: 700;
+    src:url(fonts_poppins/Poppins-Bold.ttf) format("truetype");
+}
+
+body{
+    margin: 0;
+}
+
+section{
+    padding-right: 7%;
+    padding-left:7%;
+}
+
+*{
+    font-family:Poppins, "Lucida Sans";
+    color: #000000;
+}
+
+header{
+    background-color: #222;
+    width: 100vw;
+    height: 13vh;
+    min-height: 150px;
+    padding: 7%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: #ddd;
+    min-width: 100px;
+    max-lines: 2;
+}
+
+.profile-pic{
+    display: flex;
+}
+
+.image{
+    height: 20vh;
+    width: 10vw;
+    border: 2px rgb(0,0,50) none;
+    border-radius: 100%;
+    display: flex;
+    min-width: 100px;
+    min-height: 75px;
+}
+
+.text-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70vw
+}
+
+.personal-data{   
+    align-items: center;
+    margin-right: 10px;
+    max-width: 200px
+}
+
+footer{
+    background-color: #222;
+    width: 100vw;
+    height: 13vh;
+    min-height: 150px;
+    padding: 7%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
