@@ -191,6 +191,17 @@ footer a {
 footer a:hover {
     color: white;
 }
+
+.redes{
+    height: 50px;
+    width: 50px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+}
+
 @media (max-width: 768px) {
     main {
         grid-template-columns: 1fr;
