@@ -4,7 +4,7 @@ Ejercicios terminados:
 -EJERCICIO_INTEGRADOR_HTML
 -EJERCICIO_INTEGRADOR_CSS
 
-El resto esta en desarrollo/stand-by
+El resto esta en desarrollo/stand-by.
 
 Alumno: Valentin Leone Arriola
 Comision: TUP3tt
